@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="course_list">
+        <item>Select Course</item>
+        <item>BS Information Technology</item>
+        <item>BS Computer Science</item>
+        <item>BS Information Systems</item>
+        <item>BS Entertainment and Multimedia Computing</item>
+    </string-array>
+</resources>
