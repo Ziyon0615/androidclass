@@ -46,7 +46,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="101dp"
+        android:layout_height="87dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -55,6 +55,7 @@
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
             android:background="@drawable/roundedradio"
             android:button="@null"
             android:paddingLeft="12dp"
@@ -84,46 +85,23 @@
             android:textStyle="bold" />
 
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/roundedradio"
-            android:button="@null"
-            android:paddingLeft="12dp"
-            android:paddingTop="5dp"
-            android:paddingRight="12dp"
-            android:paddingBottom="5dp"
-            android:text="3rd year"
-            android:textColor="@color/white"
-            android:textColorLink="#FFEB3B"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/roundedradio"
-            android:button="@null"
-            android:paddingLeft="12dp"
-            android:paddingTop="10dp"
-            android:paddingRight="12dp"
-            android:paddingBottom="10dp"
-            android:text="3rd year"
-            android:textColor="@color/white"
-            android:textColorLink="#FFEB3B"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-
     </LinearLayout>
 
-    <CheckBox
-        android:id="@+id/checkBox"
+    <Button
+        android:id="@+id/btnhello2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="I confirm that my information is correct"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="24dp"
+        android:text="Say Hello "
+        android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="4dp"
+        android:text="Display here"
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
 </LinearLayout>

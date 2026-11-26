@@ -8,14 +8,9 @@ import android.widget.Button;
 import android.widget.Toast;
 import android.view.View;
 import android.widget.AdapterView;
-
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.WindowCompat;
-
-
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EditText edtName = findViewById(R.id.edtName);
         TextView txtresult = findViewById(R.id.txtresult);
         Button btnhello = findViewById(R.id.btnhello);
-
         Spinner spinnerCourse = findViewById(R.id.spinnerCourse);
-
         String[] courses = {
                 "Select Course",
                 "BS Information Technology",
@@ -40,16 +33,12 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_spinner_item,
                 courses
         );
-
         adapter.setDropDownViewResource(
                 android.R.layout.simple_spinner_dropdown_item
         );
-
         spinnerCourse.setAdapter(adapter);
-
         spinnerCourse.setOnItemSelectedListener(
                 new AdapterView.OnItemSelectedListener() {
-
                     @Override
                     public void onItemSelected(
                             AdapterView<?> parent,
