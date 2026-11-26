@@ -30,17 +30,17 @@
 
     <TextView
         android:id="@+id/txtresult"
-        android:layout_width="wrap_content"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:text="It will display your name here"
-        android:textSize="24sp"
-        android:layout_marginBottom="24dp"/>
+        android:textSize="24sp" />
 
 
     <Spinner
         android:id="@+id/spinnerCourse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="231dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="50dp" />
 
 
@@ -89,7 +89,7 @@
 
     <Button
         android:id="@+id/btnhello2"
-        android:layout_width="match_parent"
+        android:layout_width="203dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="Say Hello "
@@ -103,12 +103,5 @@
         android:text="Display here"
         android:textAlignment="center"
         android:textSize="24sp" />
-
-    <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="date" />
 
 </LinearLayout>
